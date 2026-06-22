@@ -1,5 +1,4 @@
-const API_URL =
-"https://script.google.com/macros/s/AKfycbyt4i0e-jyRMTHh-KcOTolRQXIvGYbD_r9nm_BURXX7zVO6J1ICZuPX7BiUh7f7S9oVsg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbyt4i0e-jyRMTHh-KcOTolRQXIvGYbD_r9nm_BURXX7zVO6J1ICZuPX7BiUh7f7S9oVsg/exec";
 
 let users = [];
 let assets = [];
