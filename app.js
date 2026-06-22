@@ -181,23 +181,14 @@ async function submit(){
 
   };
 
-  const res =
-    await fetch(
-      API_URL,
-      {
+const url =
+  API_URL +
+  "?action=submit" +
+  "&user=" + encodeURIComponent(getUser()) +
+  "&assetId=" + encodeURIComponent(selectedAsset.assetId) +
+  "&txAction=" + encodeURIComponent(selectedAction);
 
-        method:"POST",
-
-        headers:{
-          "Content-Type":
-          "application/json"
-        },
-
-        body:
-          JSON.stringify(payload)
-
-      }
-    );
+const res = await fetch(url);
 
   const result =
     await res.json();
