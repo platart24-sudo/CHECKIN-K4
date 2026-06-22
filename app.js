@@ -1,5 +1,5 @@
 const API_URL =
-"https://script.google.com/macros/s/AKfycbx8Xm5qW4Dukkg2D0WqK2ONo7av4GkP2vxUiwPCqpJMFMNMycSfwdPCVkY_VLbip7-KBQ/exec";
+"https://script.google.com/macros/s/AKfycbw5ZFj7Kwzvg_hGq3aXORRU-pP3ss_iipg5kA34IcafrK4MEM8S6_bNQBTSxVc6Dq6d1g/exec";
 
 let users = [];
 let assets = [];
