@@ -1,1 +1,123 @@
-hello
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CHECKIN-K4</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#0f766e">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="header">
+    <h1>📻 Bộ đàm & ☂️ Dù</h1>
+
+    <div class="user-bar">
+      <span id="currentUser">Chưa chọn nhân viên</span>
+
+      <button id="changeUserBtn">
+        Đổi người dùng
+      </button>
+    </div>
+  </header>
+
+  <!-- User Modal -->
+
+  <div id="userModal" class="modal">
+
+    <div class="modal-content">
+
+      <h2>Chọn nhân viên</h2>
+
+      <select id="userSelect">
+        <option>Đang tải...</option>
+      </select>
+
+      <button id="saveUserBtn">
+        Bắt đầu
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- Asset Type -->
+
+  <section class="type-section">
+
+    <button
+      class="type-btn active"
+      data-type="RADIO">
+
+      📻 Bộ đàm
+
+    </button>
+
+    <button
+      class="type-btn"
+      data-type="UMBRELLA">
+
+      ☂️ Dù
+
+    </button>
+
+  </section>
+
+  <!-- Action -->
+
+  <section class="action-section">
+
+    <button
+      class="action-btn active"
+      data-action="RECEIVE">
+
+      NHẬN
+
+    </button>
+
+    <button
+      class="action-btn"
+      data-action="RETURN">
+
+      TRẢ
+
+    </button>
+
+  </section>
+
+  <!-- Status -->
+
+  <div id="statusBar">
+
+    Sẵn sàng
+
+  </div>
+
+  <!-- Assets Grid -->
+
+  <div id="assetGrid">
+
+  </div>
+
+</div>
+
+<!-- Bottom Button -->
+
+<div class="bottom-bar">
+
+  <button id="confirmBtn">
+
+    XÁC NHẬN
+
+  </button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
